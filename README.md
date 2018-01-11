@@ -1,7 +1,7 @@
 # imageHandle
 Deal with the load of the picture and optimize the performance
 
-[Blog Link](#)
+[Blog Link](http://daceyu.com/2018/01/11/imageHandle/)
 
 ## Support
 - 顺序加载
@@ -51,4 +51,4 @@ imgload.justRenter($dom);
 
 ## imagine
 
-这里实现了图片加载的处理，但是感觉每次开发，拿到UI稿都需要切很多图啊，`1x`、`2x`、`webp`、`base64`，这样子还没开发就浪费很多时间了，有没有什么办法来提升下效率呢？请关注后面的分享。
+这里实现了图片加载的处理，但是感觉每次开发，拿到UI稿都需要切很多图啊，`1x`、`2x`、`webp`、`base64`，这样子还没开发就浪费很多时间了，有没有什么办法来提升下效率呢？请关注后面的图片自动化处理。
