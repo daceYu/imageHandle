@@ -33,13 +33,23 @@ imgload.justRenter($dom);
 
 参数说明：
 
-`type: onebyone | lazyload | timeout`：___必须参数___  加载方式，分别对应顺序加载、懒加载、延时加载
+`type: onebyone | lazyload | timeout`：必须参数  加载方式，分别对应顺序加载、懒加载、延时加载
 
-`domclass`：___必须参数___  图片对象的`className`
+`domclass`：必须参数  图片对象的`className`
 
-`container`：___可选参数___  加载容器
+`container`：可选参数  加载容器
 
-`param`：___可选参数___  
+`param`：可选参数 
+
+​	`type:lazyload`时，`param`表示页面加载完时最多渲染图片的数量
+
+​	`type:timeout`时，`param`表示延时的时间间隔，默认为500ms
+
+`$dom`：需要加载的img节点
 
 
+
+## imagine
+
+这里实现了图片加载的处理，但是感觉每次开发，拿到UI稿都需要切很多图啊，`1x`、`2x`、`webp`、`base64`，这样子还没开发就浪费很多时间了，有没有什么办法来提升下效率呢？请关注后面的分享。
 
